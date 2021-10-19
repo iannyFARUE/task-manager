@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<div th:fragment="header">
+    <div class="top_nav">
+        <div class="nav_menu">
+            <nav>
+                <div class="nav toggle">
+                    <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="">
+                        <a th:href="@{/logout}"><i class="fa fa-sign-out"></i> Home</a>
+                    </li>
+
+                    <li class="">
+                        <a th:href="@{/profile}"><i class="fa fa-user"></i> Tasks</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

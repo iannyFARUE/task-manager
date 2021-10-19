@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    padding: 8px 10px;
+    background: #e58d8d;
+    color: white;
+}
+
+ul{
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+li{
+    padding-left: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero{
+    padding: 50px 10px ;
+    background: #eee;
+    color: #333;
+}
+
+li a:hover{
+    color: #777;
+}
